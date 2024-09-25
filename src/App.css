@@ -1,0 +1,277 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; 
+    box-sizing: border-box;
+  
+}
+.home{
+  width:100vw;
+  display: flex;
+  justify-content: center;
+}
+.h{
+  width:100%;
+  margin-top: 25px;
+  background-color: #fff;
+  margin: 70px 10px 0 10px;
+  padding: 5px 120px ;
+  display: grid;
+  height: 40vh;
+  grid-template-rows: repeat(1,1fr);
+  grid-template-columns: repeat(2,1fr);
+}
+.hgrid{
+  display: grid;
+}
+.hgrid:nth-child(2){
+justify-items:  center;
+align-items: center;
+}
+.hbtn{
+  display: flex;
+  width: 10rem;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: x-large;
+  border: 1px solid black;
+  text-decoration: none;
+  align-items: center;
+  height:'20px';
+  margin-top: 50px;
+ background-color:#1a4a84;
+ color: white;
+  justify-content: center;
+}
+.hbtn:hover{
+  color: #1a4a84;
+ background-color: white;
+}
+.mid{
+  width:100%;
+  margin-top: 25px;
+  background-color: #f2f2f2;
+  margin: 70px 10px 0 10px;
+  padding: 5px 120px ;
+  display: grid;
+  height: 40vh;
+  grid-template-rows: repeat(1,1fr);
+  grid-template-columns: repeat(2,1fr);
+}
+.mgrid{
+  text-shadow: 1px 1px rgb(0,0,0.2);
+  display: grid;
+}
+.mgrid:nth-child(1){
+  justify-content: center;
+  filter: drop-shadow(5px 5px 10px  #000000);
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.cards {
+  width:15rem;
+  margin:30px ;
+  height:20rem;
+  float: left;
+  margin: 10px;
+}
+.hcardimg{
+  width:90%;
+  height:70%;
+}
+
+.cardimg {
+  width: 17rem;
+  height: 15rem;
+}
+.hpbtn{
+  height: 30px;
+}
+.btnn2{
+  display: flex;
+  width: 10rem;
+  border-radius: 40px;
+  font-weight: 500;
+  margin-right: 30px;
+  font-size: large;
+  margin-top: 150PX;
+  border: 1px solid black;
+  text-decoration: none;
+  align-items: center;
+  height:'20px';
+ background-color:#1a4a84;
+ color: white;
+  justify-content: center;
+}
+
+
+.btnn2:hover {
+ color: #1a4a84;
+ background-color: #f2f2f2;
+}
+.footer{
+  
+  margin:0 100px;
+  width: 50rem;
+  height: 50px;
+  color: #fff;
+  display: grid;
+  
+  column-gap: 2rem;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr)
+}
+.fgrid{
+  margin-top: 20px;
+}
+.fgrid:nth-child(10){
+   grid-column: span 2;
+}
+.card{
+  margin-top: 5%;
+  width: 18rem;
+  float: left;
+  margin-left: 20px;
+  height: 25rem;
+}
+.card-img-top{
+  height: 230px;
+}
+/* Add some basic styling */
+.signup-container {
+  width: 500px;
+  margin: auto;
+  margin-top: 5%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.signup-container h2 {
+  text-align: center;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container label {
+  margin-bottom: 5px;
+}
+
+.signup-container input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 90%;
+}
+
+.signup-container .error {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+
+
+.signup-container button:hover {
+  background-color: green;
+}
+.sbtn{
+  color:white;
+  background-color: blue;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 500;
+}
+.cart {
+  width: 80vw;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.total {
+  text-align: right;
+  margin-top: 20px;
+}
+.address{
+  margin-top: 5%;
+  height: 30%;
+  width: 100%;
+  background-color: #fff;
+  padding: 7rem;
+}
+.address{
+  width:100%;
+  margin-top: 25px;
+  background-color: #fff;
+  margin: 70px 10px 0 10px;
+  padding: 5px 120px ;
+  display: grid;
+  height: 30vh;
+  grid-template-rows: repeat(1,1fr);
+  grid-template-columns: repeat(3,1fr);
+}
+.bill{
+  width:100%;
+  margin-top: 10px;
+  background-color: #fff;
+  margin: 40px 10px 0 10px;
+  padding: 5px 120px ;
+  display: grid;
+  height: auto;
+  grid-template-rows: repeat(1,1fr);
+  grid-template-columns: repeat(3,1fr);
+}
+.gbill:nth-child(1){
+  grid-column: span 3;
+}
+.gbill:nth-child(3){
+  grid-column: span 2;
+}
+.gbill:nth-child(4){
+  grid-column: span 3;
+}
+.gbill:nth-child(5){
+  grid-column: span 3;
+}
